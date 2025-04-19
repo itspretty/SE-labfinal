@@ -24,3 +24,4 @@ TEST(VehicleFactoryTest, ReturnsNullForUnknownType) {
     auto vehicle = VehicleFactory::createVehicle("plane");
     EXPECT_EQ(vehicle, nullptr);
 }
+//doing it just for another commit
